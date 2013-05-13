@@ -4,7 +4,7 @@ public class ABC implements A, B {
 
 	@Override
 	public void test(String a4) {
-		System.out.println("From : " + a4);
+		System.out.println("From Amit: " + a4);
 	}
 	
 	public void someMethod() throws NullPointerException{

@@ -3,8 +3,8 @@ package com.cg.test;
 public class ABC implements A, B {
 
 	@Override
-	public void test(String a) {
-		System.out.println("From : " + a);
+	public void test(String a1) {
+		System.out.println("From : " + a1);
 	}
 	
 	public void someMethod() throws NullPointerException{
